@@ -18,15 +18,10 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-
     <properties>
         <java.version>11</java.version>
     </properties>
     <dependencies>
-
-
-
 
     </dependencies>
 
