@@ -8,7 +8,9 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
-@ComponentScan(basePackages = {"my.edu.sfgpetclinic.web", "my.edu.sfgpetclinic"})
+@ComponentScan(basePackages = {"my.edu.sfgpetclinic.web", "my.edu.sfgpetclinic",
+        "my.edu.sfgpetclinic.services",
+        "my.edu.sfgpetclinic.services.springdatajpa", "my.edu.sfgpetclinic.repositories"})
 @Component
 public class DataLoader implements CommandLineRunner {
 
