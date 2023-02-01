@@ -92,6 +92,8 @@ public class DataLoader implements CommandLineRunner {
         fionaCat.setPetType(savedCatPetType);
         owner2.getPets().add(fionaCat);
 
+
+
         ownerService.save(owner2);
         Visit catVisit = new Visit();
         catVisit.setPet(fionaCat);
